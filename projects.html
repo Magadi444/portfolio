@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magadi | Selected Works</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="text-light">
+<div class="container-fluid p-0">
+  <div class="row g-0">
+    <nav class="col-md-3 col-lg-2 custom-nav d-flex flex-md-column justify-content-around justify-content-md-start p-3 p-md-4 border-end border-dark">
+      <div class="text-center mb-md-5 mt-md-3" style="cursor: pointer;">
+        <h2 class="text-info fw-bold d-none d-md-block user-select-none" id="easter-egg-trigger">Magadi.</h2>
+        <p class="text-secondary d-none d-md-block small text-uppercase tracking-wide">Creative Director</p>
+      </div>
+      <ul class="nav flex-row flex-md-column w-100 justify-content-around gap-md-3">
+        <li class="nav-item"><a class="nav-link text-secondary" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active text-info fw-bold" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="col-md-9 col-lg-10 main-content min-vh-100 p-4 p-md-5">
+      <div class="container mt-md-3 mb-5">
+        <h1 class="display-4 fw-bold mb-5">Case <span class="text-info">Studies</span>.</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <img src="Assets/The_Wizards_Stand_1.png" class="card-img-top border-bottom border-dark" alt="The Wizard's Stand" style="object-fit: cover; height: 220px; background-color: #111;">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">The Wizard's Stand</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Gameplay Programmer</h6>
+                <p class="card-text text-light opacity-75 small"> Built a custom 2D arcade shooter framework utilizing Vanilla JavaScript. Focused on state management, delta-time game loops, and AABB collision detection.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselKitchen" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Kitchen_Massacre_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Kitchen_Massacre_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Kitchen_Massacre_3.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselKitchen" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselKitchen" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Kitchen Massacre</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Systems Architect</h6>
+                <p class="card-text text-light opacity-75 small">Engineered a chaotic time-management game loop. Focused on state management and UI feedback to ensure rapid player actions registered cleanly.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">C# Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselRetro" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Retro_Reloaded_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Retro_Reloaded_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselRetro" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselRetro" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Retro Reloaded</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Cultural Strategist</h6>
+                <p class="card-text text-light opacity-75 small">Conducted comprehensive market analysis on the 'Boomer Shooter' genre resurgence. Deconstructed audience segments and outlined essential marketing tactics.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Market Strategy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselCalamitas" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Calamitas_Draconis_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Calamitas_Draconis_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Calamitas_Draconis_3.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCalamitas" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCalamitas" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Calamitas Draconis</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Narrative Designer & Editor</h6>
+                <p class="card-text text-light opacity-75 small">Primary narrative architect for an interactive fiction project in Twine. Unified distinct collaborative voices into a seamless player journey.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Narrative Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselLastLight" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/The_Last_Light_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/The_Last_Light_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/The_Last_Light_3.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/The_Last_Light_4.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/The_Last_Light_5.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/The_Last_Light_6.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselLastLight" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselLastLight" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">The Last Light</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Audio Director & Writer</h6>
+                <p class="card-text text-light opacity-75 small">Developed dialogue architecture and audio for a game jam prototype. Engineered a logic system tied directly to the player's core gameplay resource.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Audio & Logic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselDomestic" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Domestic_Disturbance_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Domestic_Disturbance_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDomestic" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDomestic" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Domestic Disturbance</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Creative Strategist</h6>
+                <p class="card-text text-light opacity-75 small">Developed the brand identity packaging for an asymmetrical deduction board game. Executed graphic design and crafted high-impact copywriting.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Brand Identity</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselKitty" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Kitty_Friends_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Kitty_Friends_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Kitty_Friends_3.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselKitty" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselKitty" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Kitty & Friends</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">IP Developer</h6>
+                <p class="card-text text-light opacity-75 small">Conceptualized and illustrated an original 2D platforming IP. Designed the character roster, narrative framework, and executed the level design pipeline.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">IP Development</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <img src="Assets/The_Tower_1.png" class="card-img-top border-bottom border-dark" alt="The Tower" style="object-fit: cover; height: 220px;">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">The Tower</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Lead Game Designer</h6>
+                <p class="card-text text-light opacity-75 small">Architected the core gameplay loop for a Tarot-themed board game. Designed dual-purpose risk/reward mechanics and directed the visual rulebook layout.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Tabletop Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <img src="Assets/Project_FPS_1.png" class="card-img-top border-bottom border-dark" alt="Project FPS" style="object-fit: cover; height: 220px;">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Project FPS</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Atmospheric Director</h6>
+                <p class="card-text text-light opacity-75 small">Built a functional first-person survival framework. Utilized lighting and constrained environment design to establish a signature dark, claustrophobic aesthetic.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Atmosphere</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <img src="Assets/Monarchs_Stand_1.png" class="card-img-top border-bottom border-dark" alt="Monarch's Stand" style="object-fit: cover; height: 220px;">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Monarch's Stand</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Economy Balancer</h6>
+                <p class="card-text text-light opacity-75 small">2D tower defense framework. Executed deep dives into pacing and difficulty curves, balancing wave scaling against unit economics.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Economy Balancing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <img src="Assets/The_Great_Ball_1.png" class="card-img-top border-bottom border-dark" alt="The Great Ball" style="object-fit: cover; height: 220px; background-color: #87CEEB;">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">The Great Ball</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Technical Artist</h6>
+                <p class="card-text text-light opacity-75 small">A study in DOM manipulation. Reverse-engineered a pixel-art rendering engine using a single HTML div and intricate box-shadow coordinate mapping.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">CSS3 Art</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselBubble" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Bubble_Bloom_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Bubble_Bloom_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBubble" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBubble" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Bubble Bloom Saga</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Solo Developer & UI</h6>
+                <p class="card-text text-light opacity-75 small">A match-3 puzzle framework focusing on fluid gameplay loops. Reverse-engineered core mechanics and pivoted the visual UI toward a botanical theme.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <img src="Assets/Batter_Up_1.png" class="card-img-top border-bottom border-dark" alt="Batter Up" style="object-fit: cover; height: 220px;">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">Batter Up!</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Lead Conceptualizer</h6>
+                <p class="card-text text-light opacity-75 small">Spearheaded the conceptual development for a culinary-themed tabletop game. Established the brand identity, naming convention, and executed graphic design.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Concept Strategy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-transparent border-dark h-100 tilt-card text-light">
+              <div id="carouselNomad" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border-bottom border-dark">
+                  <div class="carousel-item active"><img src="Assets/Nomads_Reprise_1.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                  <div class="carousel-item"><img src="Assets/Nomads_Reprise_2.png" class="d-block w-100" style="object-fit: cover; height: 220px;" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNomad" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNomad" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-info fw-bold">The Nomad's Reprise</h5>
+                <h6 class="card-subtitle mb-3 text-secondary text-uppercase small tracking-wide">Concept Artist</h6>
+                <p class="card-text text-light opacity-75 small">Executed a complete digital illustration pipeline from structural sketch to final render. An exploration of digital color theory, perspective, and staging.</p>
+                <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                  <span class="badge border border-secondary text-secondary bg-transparent">Digital Illustration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="JS/main.js"></script>
+</body>
+</html>
